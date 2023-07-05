@@ -1,6 +1,7 @@
 import React from "react";
 import "./services.css";
 import viewGalleryImg from "../../assets/pic7.jpg"
+import map from "../../assets/map.jpg"
 import { NavLink } from "react-router-dom";
 
 
@@ -11,22 +12,26 @@ function Services() {
       <section className="services-grid">
         <div className="services-gridArea">
           <div className="services">
-            <h1 className="services-h1">Dolla Dolla Bill Y'all</h1>
+            <h1 className="services-h1">Opening Times and Bookings</h1>
             <p classname="services-p">
-              For bookings and further inquiries please contact Billy-Jo over on Instagram or Facebook. Follow Dolla Dolla Bill Y'all socials to keep up to date with this weeks deals and available booking times.
+              For bookings, opening times and further inquiries please contact Billy-Jo over on Instagram or Facebook. Follow Dolla Dolla Bill Y'all socials to keep up to date with this weeks deals and available booking times.
             </p>
+           
+
+      
            
           </div>
 
           <aside className="services-aside">
             <ul className="services-ul">
-              <li className="social-li">Instagram</li>
-              <li className="social-li">Facebook</li>
-              <li className="social-li">Email</li>
               <li className="location-li">Location</li>
-
-
             </ul>
+            <h3>Hamilton House</h3>
+            <div className="location-img" 
+              style={{backgroundImage: `url(${map})`}}>
+              
+              </div>
+              
           </aside>
 
           <div className="viewGallery"
@@ -42,6 +47,7 @@ function Services() {
           </div>
         </div>
       </section>
+  
     </main>
   );
 }

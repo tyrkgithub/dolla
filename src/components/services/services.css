@@ -1,5 +1,20 @@
 .main {
-  height: 600px;
+  height: 700px;
+}
+
+.socials-ul {
+  color: var(--clr5);
+  list-style: none;
+  padding: 0;
+  font-size: 25px;
+}
+
+.viewSocialsButton{
+  text-decoration: none;
+  color: var(--clr5);
+  background-color: var(--clr3);
+  font-size: 20px;
+ 
 }
 
 .services-grid {
@@ -22,7 +37,7 @@
 
 .services {
   color: aliceblue;
-  font-size: 20px;
+  font-size: 25px;
   background-size: cover;
   margin: 5px;
   margin-bottom: 50px;
@@ -88,6 +103,12 @@
     background-color: var(--clr3);
     font-size: 20px;
    
+}
+
+.location-img{
+  height: 400px;
+  background-size: cover;
+  background-position: center;
 }
 
 @media only screen and (max-width: 1176px){
