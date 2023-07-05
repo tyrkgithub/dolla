@@ -3,6 +3,9 @@ import "./services.css";
 import viewGalleryImg from "../../assets/pic7.jpg"
 import map from "../../assets/map.jpg"
 import { NavLink } from "react-router-dom";
+import { SocialIcon } from 'react-social-icons';
+import SocialBar from "../navbar/socialBar";
+import { Link } from "react-router-dom";
 
 
 //function that creates a hero element for the App
@@ -16,9 +19,8 @@ function Services() {
             <p classname="services-p">
               For bookings, opening times and further inquiries please contact Billy-Jo over on Instagram or Facebook. Follow Dolla Dolla Bill Y'all socials to keep up to date with this weeks deals and available booking times.
             </p>
-           
-
-      
+            <SocialBar/>
+       
            
           </div>
 
@@ -26,11 +28,20 @@ function Services() {
             <ul className="services-ul">
               <li className="location-li">Location</li>
             </ul>
-            <h3>Hamilton House</h3>
+            <h3>4B10 Hamilton House</h3>
+            <h4>80 Stokes Croft, St Paul's, Bristol BS1 3QY</h4>
             <div className="location-img" 
               style={{backgroundImage: `url(${map})`}}>
               
               </div>
+
+              <Link
+              to="https://goo.gl/maps/8Q5mHMo58DGiFz176"
+              className="viewGalleryButton"
+            >
+              View On Google Maps
+            </Link>
+              
               
           </aside>
 

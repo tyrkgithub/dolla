@@ -1,0 +1,32 @@
+.socials-h3{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: var(--clr1);
+    text-shadow: 2px 2px var(--clr5);
+    background-color: var(--clr3);
+    display: inline;
+
+
+}
+.socials{
+
+}
+
+.socials-ul {
+    color: var(--clr5);
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+    display: inline-block;
+  }
+
+  .socials-li {
+    color: var(--clr5);
+    list-style: none;
+    padding: 0;
+    font-size: 25px;
+    display: inline;
+  }
+  
