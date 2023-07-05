@@ -1,7 +1,7 @@
 import React from "react";
 import "../pages/pages.css";
 
-function Prices() {
+function Pricing() {
   return (
     <section className="body-section">
     
@@ -9,4 +9,4 @@ function Prices() {
   );
 }
 
-export default Prices;
+export default Pricing;
