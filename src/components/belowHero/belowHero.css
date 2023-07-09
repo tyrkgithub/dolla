@@ -1,10 +1,10 @@
 .belowHero {
-  height: 110px;
+  height: 80px;
   background-size: cover;
   background-position: center;
   position: relative;
-  background-color: var(--clr1);
-  padding-top: 13px;
+  background-color: var(--clr4);
+  padding-top: 15px;
   border: 4px var(--clr4)
 }
 
@@ -21,24 +21,28 @@
 .belowBelow{
   background-color: var(--clr3);
   position: relative;
-  height: 90px;
+  height: 250px;
   color: aliceblue;
 
 }
 .belowLocation {
   margin: 0;
-  padding: 10px;
-  text-shadow: 1px 1px var(--clr5);
-  font-size: 25px;
+  padding: 50px;
+  text-shadow: 1px 1px var(--clr1);
+  font-size: 35px;
 }
 
 .location {
   list-style: none;
-  position: relative;
-  display: inline;
-  padding: 30px;
-  text-shadow: 1px 1px var(--clr2);
+  text-decoration: none;
+
  font-size: 25px;
+
+ color: aliceblue;
+ text-shadow: 2px 2px var(--clr5);
+
+
+
 }
 .loactionUl{
   padding-left: 0;
@@ -53,12 +57,7 @@
   }
 }
 
-@media only screen and (min-width: 961px){
-  .belowHero {
-    height: 80px;
-   
-  }
-}
+
 
 @media only screen and (max-width: 886px){
   .location{

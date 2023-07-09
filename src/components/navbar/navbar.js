@@ -2,12 +2,18 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
+import LogoImg from "../../assets/logoNameClear.png";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
+     
       <div className="container-fluid justify-content-center">
         <ul className="navbar-nav justify-content-center">
+        <li className="nav-item logo"
+      style={{ backgroundImage: `url(${LogoImg})` }}>
+      
+    </li>
           <li className="nav-item">
             <NavLink
               to="/pricing"
@@ -16,7 +22,7 @@ function Navbar() {
                 isActive ? "nav-link active" : "nav-link"
               }
             >
-              Pricing
+              PRICING
             </NavLink>
           </li>
           <li className="nav-item">
@@ -26,7 +32,7 @@ function Navbar() {
                 isActive ? "nav-link active" : "nav-link"
               }
             >
-              Home
+              HOME
             </NavLink>
           </li>
           <li className="nav-item">
@@ -36,9 +42,13 @@ function Navbar() {
                 isActive ? "nav-link active" : "nav-link"
               }
             >
-              Booking
+              BOOKING
             </NavLink>
           </li>
+          <li className="nav-item logo"
+      style={{ backgroundImage: `url(${LogoImg})` }}>
+      
+    </li>
         </ul>
       </div>
     </nav>

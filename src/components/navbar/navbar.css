@@ -1,9 +1,20 @@
 .nav-item {
   list-style: none;
   padding-left: 50px;
+  padding-top: 25px;
   padding-right: 50px;
   color: var(--clr3) !important;
 
+ 
+}
+
+.logo {
+  height: 80px;
+  background-size: 70px;
+  background-position: center;
+  position: left;
+  background-repeat: no-repeat;
+  text-align: center;
  
 }
 
@@ -29,7 +40,7 @@
   justify-content: center;
   margin: 0;
   padding: 0;
-  height: 60px;
+  height: 100px;
 }
 
 .container-fluid.justify-content-center {

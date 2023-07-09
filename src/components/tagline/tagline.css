@@ -1,0 +1,52 @@
+.tagline {
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-color: var(--clr2);
+  padding-top: 40px;
+  border: 4px var(--clr4);
+  margin-bottom: 20px;
+}
+
+.tagline h2 {
+  font-size: 30px;
+  color: white;
+ 
+  margin: 0;
+}
+
+
+
+
+@media only screen and (max-width: 480px){
+  .tagline h2 {
+    font-size: 25px;
+   
+  }
+}
+
+
+
+@media only screen and (max-width: 886px){
+  .location{
+   display: block;
+   padding: 5px;
+   font-size: 20px;
+  }
+ 
+}
+
+@media only screen and (max-width: 550px){
+  .tagline{
+   height: 130px;
+  }
+  
+ }
+
+@media only screen and (max-width: 383px){
+ .belowBelow {
+  height: 120px;
+ }
+ 
+}

@@ -1,20 +1,19 @@
 // importing various folders/libraries to use here
 import React from "react";
-import HeroImg from "../../assets/logoNameClear.png";
+import HeroImg from "../../assets/pic25.jpg";
 import "./hero.css";
-import BelowHero from "../belowHero/belowHero";
 
 //function that creates a hero element for the App
 function Hero() {
   return (
-    <div>
+  
     <div
       className="hero text-center"
       style={{ backgroundImage: `url(${HeroImg})` }}>
-     
+      <h1 className="h1"></h1>
     </div>
-    <BelowHero />
-    </div>
+
+    
   );
 }
 

@@ -1,0 +1,49 @@
+.gallery-grid {
+  border-radius: 10px;
+  margin: 25px 100px 5px 100px;
+  position: relative;
+  justify-content: center;
+}
+.gallery-gridArea {
+  margin-top: 10px;
+  display: grid;
+ padding: 0;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "one two three";
+}
+
+.one {
+  background-size: cover;
+  margin: 10px;
+}
+
+.two {
+  background-size: cover;
+  margin: 10px;
+}
+.three {
+  background-size: cover;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 950px){
+  .gallery-grid {
+    margin: 25px;
+  
+
+}
+
+}
+
+@media only screen and (max-width: 510px){
+  .gallery-gridArea{
+  height: 150px;
+
+
+
+}
+.gallery-grid{
+  margin: 5px;
+}
+}

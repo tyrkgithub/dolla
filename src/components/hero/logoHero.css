@@ -1,14 +1,15 @@
 
 
-.hero {
-  height: 550px;
-  background-size: cover;
-  background-position: top;
-  position: relative;
+.logoHero {
+  height: 200px;
+  background-size: contain;
+
+background-position: center;
+background-repeat: space repeat;
   text-align: center;
 }
 
-.hero h1 {
+.logoHero h1 {
   font-size: 80px;
   padding-top: 120px;
   margin-top: 0;
@@ -16,30 +17,30 @@
   text-shadow: 2px 2px var(--clr5);
 }
 
-.hero h2 {
+.logoHero h2 {
   font-size: 60px;
   color: var(--clr5);
   text-shadow: 2px 2px var(--clr1);
 }
 
 @media only screen and (max-width: 480px){
-  .hero h1 {
+  .logoHero h1 {
     font-size: 50px;
   }
-  .hero {
+  .logoHero {
     height: 360px;
   }
 }
 
 @media only screen and (max-width: 550px){
-  .hero h1 {
+  .logoHero h1 {
    font-size: 60px;
   }
   
  }
 
  @media only screen and (max-width: 410px){
-  .hero h1 {
+  .logoHero h1 {
    font-size: 40px;
   }
   
