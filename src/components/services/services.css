@@ -16,7 +16,7 @@
   width: auto;
   height: auto;
   grid-template-columns: 3fr 2fr;
-  grid-template-rows: 365px 200px;
+  grid-template-rows: 450px 250px;
   grid-template-areas:
     "services services-aside"
     "viewGallery services-aside";
@@ -45,6 +45,7 @@
 
 .services-p{
     margin-top: 30px;
+   
 }
 
 .services-ul {
@@ -52,15 +53,16 @@
   list-style: none;
   padding: 0;
   font-size: 25px;
+  margin: 0px;
 }
 
 .services-aside {
     background-size: cover;
     text-align: center;
-    height : 485px;
+    height : 630px;
     margin: 5px;
     margin-left: 50px;
-    padding: 30px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     border: 10px solid var(--clr2);
   }
 
@@ -90,12 +92,41 @@
     background-color: var(--clr3);
     font-size: 20px;
    
+   
+}
+
+.viewGallery-p{
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.location-li{
+ 
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    color: var(--clr1);
+    text-shadow: 2px 2px var(--clr5);
+    background-color: var(--clr3);
+
+}
+
+.location-h3{
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.location-h4{
+  font-size: 15px;
+  color: aliceblue;
 }
 
 .location-img{
   height: 400px;
   background-size: cover;
   background-position: center;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1176px){

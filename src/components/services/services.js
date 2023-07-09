@@ -28,8 +28,8 @@ function Services() {
             <ul className="services-ul">
               <li className="location-li">Location</li>
             </ul>
-            <h3>4B10 Hamilton House</h3>
-            <h4>80 Stokes Croft, St Paul's, Bristol BS1 3QY</h4>
+            <h3 className="location-h3">4B10 Hamilton House</h3>
+            <h4 className="location-h4">80 Stokes Croft, St Paul's, Bristol BS1 3QY</h4>
             <div className="location-img" 
               style={{backgroundImage: `url(${map})`}}>
               
