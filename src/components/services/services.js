@@ -3,7 +3,6 @@ import "./services.css";
 import viewGalleryImg from "../../assets/pic7.jpg"
 import map from "../../assets/map.jpg"
 import { NavLink } from "react-router-dom";
-import { SocialIcon } from 'react-social-icons';
 import SocialBar from "../navbar/socialBar";
 import { Link } from "react-router-dom";
 
@@ -47,13 +46,13 @@ function Services() {
 
           <div className="viewGallery"
           style={{ backgroundImage: `url(${viewGalleryImg})` }}>
-            <h3 className="viewGallery-h3">Previous Projects</h3>
-            <p className="viewGallery-p">Check out some of Billys latest creations over on the gallery page.</p>
+            <h3 className="viewGallery-h3">Gem Options</h3>
+            <p className="viewGallery-p">Check out some of the gems available for application over on the Pricing page.</p>
             <NavLink
               to="/pricing"
               className="viewGalleryButton"
             >
-              View Images
+              View Gems
             </NavLink>
           </div>
         </div>

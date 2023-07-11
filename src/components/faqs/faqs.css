@@ -1,0 +1,37 @@
+.faqs-div{
+height: 1300px;
+background-color: var(--clr5);
+margin: 25px 150px 5px 150px;
+color: aliceblue;
+padding: 20px 90px 20px 90px;
+border: 10px solid var(--clr2);
+}
+
+.faqs-h3{
+font-size: 50px;
+color: var(--clr1);
+text-shadow: 2px 2px var(--clr5);
+background-color: var(--clr3);
+}
+.faqs-p{
+    font-size: 30px;
+}
+
+.faqs-ul{
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.faqs-li{
+    padding: 10px;
+}
+
+.faqs-q{
+    font-size: 35px;
+}
+
+.faqs-a{
+    font-size: 20px;
+}
+
+

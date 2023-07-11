@@ -6,7 +6,7 @@ import "./tagline.css";
 function Tagline() {
   return (
     <div className="tagline text-center">
-      <h2 className="tagline h2">QUALIFIED AND INSURED TOOTH GEM APPLICATION BASED IN BRISTOL</h2>
+      <h2 className="tagline h2">QUALIFIED AND INSURED TOOTH GEM TECHNICIAN BASED IN BRISTOL</h2>
     </div>
 
     

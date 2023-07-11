@@ -10,7 +10,7 @@ function Hero() {
     <div
       className="hero text-center"
       style={{ backgroundImage: `url(${HeroImg})` }}>
-      <h1 className="h1"></h1>
+     
     </div>
 
     

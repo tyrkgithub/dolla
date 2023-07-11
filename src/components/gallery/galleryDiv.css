@@ -27,6 +27,29 @@
   margin: 10px;
 }
 
+.option-grid{
+  border-radius: 10px;
+  margin: 25px 100px 5px 100px;
+  position: relative;
+  justify-content: center;
+  
+}
+
+.option-gridArea{
+  margin-top: 10px;
+  display: grid;
+ padding: 0;
+  height: 250px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "optionOne optionTwo optionThree optionFour optionFive";
+  
+}
+
+.optionOne,.optionTwo,.optionThree,.optionFour,.optionFive{
+  background-size: cover;
+  margin: 10px;
+}
+
 @media only screen and (max-width: 950px){
   .gallery-grid {
     margin: 25px;
