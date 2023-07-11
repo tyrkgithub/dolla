@@ -6,7 +6,6 @@ import Home from './pages/home';
 import Pricing from './pages/pricing';
 import Booking from './pages/booking';
 import Footer from './components/footer/footer';
-import Socials from './components/footer/socialIcons';
 
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
         <Route path="/booking" element={<Booking />} />
       </Routes>
 
-      <Socials/>
+      
 
       <Footer/>
 

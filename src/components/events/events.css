@@ -12,7 +12,7 @@
 
     display: grid;
     width: auto;
-    height: 470px;
+    height: 550px;
     padding: 40px;
     grid-template-columns: 3fr 2fr;
     grid-template-areas:
@@ -34,8 +34,8 @@
    
 }
 
-.events-h5{
-    font-size: 25px;
+.events-p{
+    font-size: 20px;
     color: aliceblue;
 
 }
@@ -47,7 +47,7 @@
 }
 
 .events-img{
-    height: 450px;
+    height: 528px;
     width: 350px;
     background-size: cover;
     background-position: center;
@@ -56,4 +56,15 @@
 
 
 
+}
+
+.events-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.events-li{
+    color: aliceblue;
+    padding: 10px 0px 10px;
+    font-size: 20px;
 }

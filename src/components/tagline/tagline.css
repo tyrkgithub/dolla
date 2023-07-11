@@ -1,20 +1,15 @@
-.tagline {
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+
+
+.tagline-h2{
+  
   background-color: var(--clr2);
-  padding-top: 40px;
-  border: 4px var(--clr4);
-  margin-bottom: 20px;
+  font-size: 25px;
+  color: white;
+  margin: 0;
+  padding: 12px;
 }
 
-.tagline h2 {
-  font-size: 30px;
-  color: white;
- 
-  margin: 0;
-}
+
 
 
 

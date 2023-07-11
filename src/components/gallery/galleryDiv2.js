@@ -9,7 +9,7 @@ import Img3 from "../../assets/pic16.jpg";
 class GalleryDiv2 extends Component {
   render() {
   return (
-    <div className="wrapper">
+   
     <section className="gallery-grid">
      
       <div className="gallery-gridArea">
@@ -27,7 +27,7 @@ class GalleryDiv2 extends Component {
       </div>
 
     </section>
-    </div>
+
   );
 }
 }

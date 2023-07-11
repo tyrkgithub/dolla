@@ -2,6 +2,7 @@
 import React from "react";
 import "./events.css";
 import eventsImg from "../../assets/party1.jpg"
+import SocialBar from "../navbar/socialBar";
 
 
 //function that creates a footer element for the App
@@ -11,9 +12,32 @@ function Events() {
       <div className="events-gridArea">
         <div className="events">
           <h3 className="events-h3">EVENT BOOKING</h3>
-          <p className="events-p"><p className="price-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</p>
-<h5 className="events-h5">To disucss event booking please contact Billy over on her socials</h5>
+          <ul className="events-ul">
+            <li className="events-li">
+              WEDDING
+            </li>
+            <li className="events-li">
+              FESTIVAL
+            </li>
+            <li className="events-li">
+              HEN / STAG
+            </li>
+            <li className="events-li">
+              CORPORATE
+            </li>
+            <li className="events-li">
+              BIRTHDAY
+            </li>
+            <li className="events-li">
+              ENGAGEMENT
+            </li>
+            <li className="events-li">
+              CLUB NIGHT
+            </li>
+          </ul>
+
+<p className="events-p">Looking to add a sparkle at your next party? To disucss event booking please contact Billy on Instagram or Facebook.</p>
+<SocialBar/>
 
 
         </div>

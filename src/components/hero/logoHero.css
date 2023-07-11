@@ -1,4 +1,7 @@
-
+.sleep{
+  background-color: var(--clr5);
+  padding: 25px;
+}
 
 .logoHero {
   height: 200px;

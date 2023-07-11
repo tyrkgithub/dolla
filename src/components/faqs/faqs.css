@@ -1,9 +1,9 @@
 .faqs-div{
 height: 1300px;
 background-color: var(--clr5);
-margin: 25px 150px 5px 150px;
+margin: 50px 150px 50px 150px;
 color: aliceblue;
-padding: 20px 90px 20px 90px;
+padding: 20px 90px 70px 90px;
 border: 10px solid var(--clr2);
 }
 
@@ -14,7 +14,7 @@ text-shadow: 2px 2px var(--clr5);
 background-color: var(--clr3);
 }
 .faqs-p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .faqs-ul{

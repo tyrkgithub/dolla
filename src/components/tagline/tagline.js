@@ -5,8 +5,8 @@ import "./tagline.css";
 //function that creates a hero element for the App
 function Tagline() {
   return (
-    <div className="tagline text-center">
-      <h2 className="tagline h2">QUALIFIED AND INSURED TOOTH GEM TECHNICIAN BASED IN BRISTOL</h2>
+    <div>
+      <h2 className="tagline-h2">QUALIFIED AND INSURED TOOTH GEM TECHNICIAN BASED IN BRISTOL</h2>
     </div>
 
     

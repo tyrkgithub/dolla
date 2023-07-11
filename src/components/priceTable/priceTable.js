@@ -1,13 +1,15 @@
 import React from "react";
 import "./priceTable.css"
+import Socialbar from "../navbar/socialBar"
 
 function PriceTable() {
   return (
    
   <div className="container">
     <div className="price-container">
+      
 <h2 className="container-h2">PRICE LIST</h2>
-<p className="price-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p className="price-description">The prices below all include the application of your chosen gem. Be sure to check out the socials for regular discounts and the latest deals! Fancy a different design? Billy would love to bring your idea to life, please drop her a message over on her Facebook or Instagram.</p>
 
 
 <div className="price-row">
@@ -86,9 +88,18 @@ function PriceTable() {
 
 </div>
 
-
+<div className="priceBooking"
+          >
+            <h3 className="priceBooking-h3">BOOK YOUR APPOINTMENT</h3>
+            <p className="priceBooking-p">Dolla Dolla Bill Y'all takes bookings through Instagram and Facebook messages. Click these links below to be directed to the social media accounts.</p>
+            <Socialbar/>
+          </div>
 
     </div>
+   
+
+
+   
     </div>
   );
 }
