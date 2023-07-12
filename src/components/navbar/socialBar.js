@@ -13,6 +13,10 @@ function SocialBar() {
             className="socials-h3"
           >
             Instagram{" "}
+            </Link>
+            <Link to="https://www.instagram.com/dolladollabill_yalll"
+          className="socials-icon">
+          
             <SocialIcon url="https://www.instagram.com/dolladollabill_yalll/"></SocialIcon>
           </Link>
         </li>
@@ -23,6 +27,12 @@ function SocialBar() {
             className="socials-h3"
           >
             Facebook{" "}
+            </Link>
+
+<Link
+            to="https://www.facebook.com/profile.php?id=100083532782159"
+            className="socials-icon"
+          >
             <SocialIcon url="https://www.facebook.com/profile.php?id=100083532782159"></SocialIcon>
           </Link>
         </li>
