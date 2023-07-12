@@ -29,7 +29,12 @@ height: 70px;
     color: var(--clr5);
     list-style: none;
     padding: 0px 20px 0px 20px;
-    font-size: 25px;
     display: inline;
   }
+
+  @media only screen and (max-width: 550px){
+     .socials-h3{
+      font-size: 20px;
+     }
+    }
   

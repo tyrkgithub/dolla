@@ -17,6 +17,16 @@ function Navbar() {
           </ul>
           <ul className="navbar-item-nav">
           <ul className="navbar-item">
+          <li className="nav-item">
+              <NavLink
+                to="/home"
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                HOME
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink
                 to="/pricing"
@@ -28,16 +38,7 @@ function Navbar() {
                 PRICING
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/home"
-                className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
-                }
-              >
-                HOME
-              </NavLink>
-            </li>
+
             <li className="nav-item">
               <NavLink
                 to="/booking"

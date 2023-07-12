@@ -1,14 +1,14 @@
 .belowHero {
-  height: 80px;
+
   background-size: cover;
   background-position: center;
   position: relative;
   background-color: var(--clr4);
-  padding-top: 15px;
+  padding: 25px;
   border: 4px var(--clr4)
 }
 
-.belowHero h2 {
+.belowHero-h2 {
   font-size: 30px;
   color: white;
  
@@ -50,34 +50,41 @@
 }
 
 
-@media only screen and (max-width: 480px){
-  .belowHero h2 {
+@media only screen and (max-width: 725px){
+  .belowHero-h2 {
     font-size: 25px;
    
   }
 }
 
-
-
-@media only screen and (max-width: 886px){
+@media only screen and (max-width: 480px){
   .location{
-   display: block;
    padding: 5px;
    font-size: 20px;
   }
- 
-}
 
-@media only screen and (max-width: 550px){
-  .belowHero{
-   height: 130px;
+  .belowLocation{
+    font-size: 30px;
   }
-  
- }
 
-@media only screen and (max-width: 383px){
- .belowBelow {
-  height: 120px;
- }
+  .belowBelow{
+    height: 220px;
+  }
  
 }
+
+
+
+@media only screen and (max-width: 310px){
+  
+  .belowHero-h2 {
+    font-size: 20px;
+   
+  }
+ 
+}
+
+
+
+
+

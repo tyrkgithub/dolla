@@ -7,8 +7,8 @@ import { NavLink } from "react-router-dom";
 function BelowHero() {
   return (
     <div>
-    <div className="belowHero text-center">
-      <h2 className="belowHero h2">FOR A SMILE THAT SHINES AS BRIGHT AS YOU</h2>
+    <div className="belowHero">
+      <h2 className="belowHero-h2">FOR A SMILE THAT SHINES AS BRIGHT AS YOU</h2>
     </div>
     <div className="belowBelow">
       <h3 className="belowLocation">

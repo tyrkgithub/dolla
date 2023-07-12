@@ -1,47 +1,22 @@
-
-
 .tagline-h2{
-  
   background-color: var(--clr2);
   font-size: 25px;
   color: white;
   margin: 0;
-  padding: 12px;
+  padding: 15px;
 }
 
 
-
-
-
-
-@media only screen and (max-width: 480px){
-  .tagline h2 {
-    font-size: 25px;
+@media only screen and (max-width: 725px){
+  .tagline-h2 {
+    font-size: 20px;
    
   }
 }
 
-
-
-@media only screen and (max-width: 886px){
-  .location{
-   display: block;
-   padding: 5px;
-   font-size: 20px;
+@media only screen and (max-width: 310px){
+  .tagline-h2 {
+    font-size: 15px;
+   
   }
- 
-}
-
-@media only screen and (max-width: 550px){
-  .tagline{
-   height: 130px;
-  }
-  
- }
-
-@media only screen and (max-width: 383px){
- .belowBelow {
-  height: 120px;
- }
- 
 }

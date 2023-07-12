@@ -1,6 +1,6 @@
 .sleep{
   background-color: var(--clr5);
-  padding: 25px;
+  padding: 25px 25px 50px 25px;
 }
 
 .logoHero {
@@ -26,6 +26,13 @@ background-repeat: space repeat;
   text-shadow: 2px 2px var(--clr1);
 }
 
+@media only screen and (max-width: 980px){
+ .priceBooking-h3{
+  
+ }
+  
+ }
+
 @media only screen and (max-width: 480px){
   .logoHero h1 {
     font-size: 50px;
@@ -48,3 +55,4 @@ background-repeat: space repeat;
   }
   
  }
+
