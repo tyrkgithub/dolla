@@ -13,7 +13,7 @@ function PriceTable() {
 
 
 <div className="price-row">
-    <div className="price-col">
+    <div className="p-crystal">
     <p className="price-col-p">X1 CRYSTAL</p>
 
         <ul className="price-col-ul">
@@ -30,7 +30,7 @@ function PriceTable() {
         
   
     </div>
-    <div className="price-col">
+    <div className="p-crystal2">
     <p className="price-col-p">X2 CRYSTALS</p>
 
         <ul className="price-col-ul">
@@ -47,7 +47,7 @@ function PriceTable() {
         
   
     </div>
-    <div className="price-col">
+    <div className="p-designs">
         <p className="price-col-p">DESIGNS</p>
         <ul className="price-col-ul">
             <li  className="price-col-ul-li">ARCH </li>
@@ -61,7 +61,7 @@ function PriceTable() {
         </ul>
   
     </div>
-    <div className="price-col">
+    <div className="p-slay">
         <p className="price-col-p">SLAY</p>
         <ul className="price-col-ul">
             <li className="price-col-ul-li">FULL TOOTH</li>
@@ -73,7 +73,7 @@ function PriceTable() {
         </ul>
       
     </div>
-    <div className="price-col">
+    <div className="p-gold">
         <p className="price-col-p">GOLD</p>
         <ul className="price-col-ul">
             <li className="price-col-ul-li">22K GOLD</li>

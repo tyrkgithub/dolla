@@ -13,6 +13,7 @@
     text-align: center;
     padding-bottom: 50px;
     font-size: 25px;
+    margin-bottom: 0;
 }
 
 .container-h2 {
@@ -35,7 +36,7 @@
     
 }
 
-.price-col {
+.p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
 	background: var(--clr3);
 	padding: 10% 15%;
 	color: aliceblue;
@@ -98,8 +99,29 @@
 
 
 
+@media only screen and (max-width: 1265px){
+    .container{
+        height: 1200px;
+    }
+}
 
 
+@media only screen and (max-width: 1050px){
+    .price-row {
+        display: block;   
+    }
+
+    .p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
+        padding: 25px;
+        margin: 0px 200px 50px;
+        
+    }
+
+    .container{
+        height: 2800px;
+    }
+     
+    }
 
 
 @media only screen and (max-width: 980px){
@@ -114,6 +136,14 @@
        
     }
      
+    }
+
+    @media only screen and (max-width: 720px){
+        .p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
+            padding: 25px;
+            margin: 0px 100px 50px;
+            
+        }
     }
 
     @media only screen and (max-width: 575px){
@@ -143,7 +173,6 @@
             .price-description{
                 text-align: center;
                 margin: auto;
-
                 padding: 20px 20px 40px 20px;
                 font-size: 20px;
             }
@@ -152,8 +181,24 @@
                 padding: 10px 20px;
                 margin-bottom: 50px;
             }
+
+            .p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
+                padding: 25px;
+                margin: 0px 50px 30px;
+                
+            }
              
             }
+
+            @media only screen and (max-width: 310px){
+                .p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
+                    padding: 25px;
+                    margin: 0px 20px 30px;
+                    
+                }}
+
+
+
 
 
 
