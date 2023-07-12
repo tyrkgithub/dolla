@@ -138,6 +138,96 @@
      
     }
 
+    @media only screen and (max-width: 865px){
+        .container{
+            height: 2850px;
+        }
+         
+        }
+
+        @media only screen and (max-width: 783px){
+            .container{
+                height: 2900px;
+            }
+             
+            }
+
+            @media only screen and (max-width: 633px){
+                .container{
+                    height: 2950px;
+                }
+                 
+                }
+
+                @media only screen and (max-width: 619px){
+                    .container{
+                        height: 2975px;
+                    }
+                     
+                    }
+
+                    @media only screen and (max-width: 537px){
+                        .container{
+                            height: 3000px;
+                        }
+                         
+                        }
+
+                        @media only screen and (max-width: 534px){
+                            .container{
+                                height: 3050px;
+                            }
+                             
+                            }
+
+                            @media only screen and (max-width: 520px){
+                                .container{
+                                    height: 2675px;
+                                }
+                                 
+                                }
+                                @media only screen and (max-width: 514px){
+                                    .container{
+                                        height: 2700px;
+                                    }
+                                     
+                                    }
+                                   
+                                        @media only screen and (max-width: 425px){
+                                            .container{
+                                                height: 2750px;
+
+                                                
+                                            }
+                                            .priceBooking-h3{
+                                                font-size: 25px;
+                                            }
+                                             
+                                            }
+                                            @media only screen and (max-width: 388px){
+                                                .container{
+                                                    height: 2800px;
+                                                }
+                                                 
+                                                }
+                                                @media only screen and (max-width: 365px){
+                                                    .container{
+                                                        height: 2850px;
+                                                    }
+                                                     
+                                                    }
+                                                    @media only screen and (max-width: 341px){
+                                                        .container{
+                                                            height: 2950px;
+
+                                                        }
+
+                                                       
+                                                         
+                                                        }
+
+
+
     @media only screen and (max-width: 720px){
         .p-crystal,.p-crystal2,.p-designs,.p-slay,.p-gold {
             padding: 25px;
@@ -154,9 +244,9 @@
 
        
 
-        @media only screen and (max-width: 480px){
+        @media only screen and (max-width: 520px){
             .priceBooking-h3{
-               font-size: 30px;
+              
                margin:25px;
              
             }
@@ -186,6 +276,10 @@
                 padding: 25px;
                 margin: 0px 50px 30px;
                 
+            }
+
+            .priceBooking-p{
+                font-size: 20px;
             }
              
             }

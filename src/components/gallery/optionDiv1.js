@@ -11,7 +11,6 @@ import Img5 from "../../assets/option5.jpg"
 class OptionDiv1 extends Component {
   render() {
   return (
-    <div className="wrapper">
     <section className="option-grid">
      
       <div className="option-gridArea">
@@ -37,7 +36,6 @@ class OptionDiv1 extends Component {
       </div>
 
     </section>
-    </div>
   );
 }
 }

@@ -36,7 +36,7 @@
 }
 
 .option-gridArea{
-  margin-top: 10px;
+  margin-top: 20px;
   display: grid;
  padding: 0;
   height: 250px;
@@ -48,6 +48,7 @@
 .optionOne,.optionTwo,.optionThree,.optionFour,.optionFive{
   background-size: cover;
   margin: 10px;
+  padding: auto;
 }
 
 @media only screen and (max-width: 950px){
@@ -55,9 +56,44 @@
     margin: 25px;
   
 
+}}
+
+@media only screen and (max-width: 900px){
+  .option-grid{
+    margin: 25px 25px 5px 25px;
+    
+  }
+  .option-gridArea{
+    height: 200px;
+  }
 }
 
+@media only screen and (max-width: 600px){
+ .option-gridArea{
+  grid-template-columns: 1fr!important;
+  grid-template-rows: repeat(5, 300px);
+  grid-gap: 10px;
+  grid-auto-flow: column;
+  height: auto;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  
+ }
+
+ .option-grid{
+  justify-content: center;
+  margin: 0;
+  
+ }
+
+ .optionOne,.optionTwo,.optionThree,.optionFour,.optionFive{
+  background-size: cover;
+  margin: 10px 10px 10px 20px;
+ 
 }
+}
+
+
 
 @media only screen and (max-width: 510px){
   .gallery-gridArea{
