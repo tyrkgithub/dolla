@@ -68,3 +68,27 @@
     padding: 10px 0px 10px;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 1050px) {
+    .events-gridArea{
+        display: block;
+    }
+
+    .events-img-pdiv{
+        margin-top: 50px;
+    }
+
+    .events-gridArea{
+        height: auto;
+    }
+  }
+
+  @media only screen and (max-width: 1050px) {
+    .events-img{
+        height: 390px;
+        width: 230px;
+    }
+    .events-gridArea{
+        padding: 20px 20px 40px 20px;
+    }
+  }

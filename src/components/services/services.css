@@ -122,6 +122,8 @@ font-size: 25px;
 }
 
 
+
+
 @media only screen and (max-width: 1327px) {
   .services{
     font-size: 20px;
@@ -173,6 +175,8 @@ font-size: 25px;
   .services{
    font-size: 20px;
   }
+
+  
   
    
   }
@@ -183,7 +187,7 @@ font-size: 25px;
    }
 
    .main{
-    height: 1350px;
+    height: auto;
    }
 
    .services-aside{
@@ -195,23 +199,20 @@ font-size: 25px;
      
   }
 
-  @media only screen and (max-width: 543px) {
+  
+
+  @media only screen and (max-width: 653px) {
     .services-grid{
 
     margin: 25px;
     }
 
-    .main{
-      height: 1350px;
-    }
+   
     }
 
     @media only screen and (max-width: 490px) {
      
   
-      .main{
-        height: 1410px;
-      }
 
       .services-aside{
         height: 590px;
@@ -219,15 +220,11 @@ font-size: 25px;
       }
 
       @media only screen and (max-width: 441px) {
-        .main{
-         height: 1450px;
-        }
+      
       }
 
       @media only screen and (max-width: 394px) {
-     .main{
-      height: 1350px;
-     }
+   
   
       .services-h1{
         font-size: 30px;
@@ -245,18 +242,12 @@ font-size: 25px;
         
         }
 
-        @media only screen and (max-width: 383px) {
-          .main{
-           height: 1450px;
-          }
-        }
+       
 
         @media only screen and (max-width: 344px) {
           .services-aside{
             height: 610px;
           }
 
-          .main{
-            height: 1480px;
-          }
+         
         }
