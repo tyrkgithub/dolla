@@ -22,7 +22,7 @@
 
 .services {
   color: aliceblue;
-  font-size: 25px;
+font-size: 25px;
   background-size: cover;
   margin: 5px;
   margin-bottom: 50px;
@@ -42,6 +42,7 @@
 
 .services-p {
   margin-top: 30px;
+  
 }
 
 .services-ul {
@@ -120,147 +121,142 @@
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 1176px) {
-  .services-gridArea {
-    grid-template-rows: 450px 200px;
-  }
 
-  .services-aside {
-    height: 530px;
-    padding-top: 70px;
-  }
-
-  .main {
-    height: 685px;
+@media only screen and (max-width: 1327px) {
+  .services{
+    font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 888px) {
-  .services-gridArea {
-    grid-template-rows: 500px 200px;
-  }
-
-  .services-aside {
-    height: 580px;
-    padding-top: 70px;
-  }
-
-  .main {
-    height: 735px;
+@media only screen and (max-width: 1200px) {
+  .services-h1{
+    font-size: 35px;
   }
 }
 
-@media only screen and (max-width: 810px) {
-  .services-gridArea {
-    grid-template-rows: 550px 200px;
-  }
-
-  .services-aside {
-    height: 630px;
-    padding-top: 70px;
-  }
-
-  .main {
-    height: 785px;
+@media only screen and (max-width: 1123px) {
+  .services-h1{
+    font-size: 35px;
   }
 }
 
-@media only screen and (max-width: 765px) {
-  .main {
-    height: 1200px;
+@media only screen and (max-width: 1123px) {
+ .services-gridArea{
+  grid-template-columns: 4fr 2fr;
+ }
+ .services{
+  font-size: 25px;
+ }
+ .location-img{
+  height: 370px;
+ }
+
+ .viewGalleryButton{
+  font-size: 15px;
+ }
+ }
+
+ 
+
+ 
+
+
+@media only screen and (max-width: 1123px) {
+  .services-grid{
+   margin: 50px 50px 50px 50px;
+ 
   }
-  .services-gridArea {
+ 
+  
+ }
+ @media only screen and (max-width: 1001px) {
+  .services{
+   font-size: 20px;
+  }
+  
+   
+  }
+
+  @media only screen and (max-width: 982px) {
+   .services-gridArea{
     display: block;
-  }
-  .services-aside {
+   }
+
+   .main{
+    height: 1350px;
+   }
+
+   .services-aside{
     margin-left: 5px;
     margin-bottom: 50px;
-    padding: 10px;
-    height: 460px;
+    height: 570px;
+   }
+    
+     
   }
-}
 
-@media only screen and (max-width: 724px) {
-  .main {
-    height: 1223px;
-  }
-}
+  @media only screen and (max-width: 543px) {
+    .services-grid{
 
-@media only screen and (max-width: 653px) {
-  .main {
-    height: 1246px;
-  }
-}
+    margin: 25px;
+    }
 
-@media only screen and (max-width: 612px) {
-  .main {
-    height: 1269px;
-  }
-}
+    .main{
+      height: 1350px;
+    }
+    }
 
-@media only screen and (max-width: 580px) {
-  .main {
-    height: 1292px;
-  }
-}
+    @media only screen and (max-width: 490px) {
+     
+  
+      .main{
+        height: 1410px;
+      }
 
-@media only screen and (max-width: 556px) {
-  .main {
-    height: 1315px;
-  }
-}
+      .services-aside{
+        height: 590px;
+      }
+      }
 
-@media only screen and (max-width: 533px) {
-  .main {
-    height: 1235px;
-  }
-  .services-grid {
-    margin: 25px 25px 5px 25px;
-  }
-}
+      @media only screen and (max-width: 441px) {
+        .main{
+         height: 1450px;
+        }
+      }
 
-@media only screen and (max-width: 462px) {
-  .main {
-    height: 1260px;
-  }
-}
+      @media only screen and (max-width: 394px) {
+     .main{
+      height: 1350px;
+     }
+  
+      .services-h1{
+        font-size: 30px;
+        padding: 0px 10px 0px 10px;
 
-@media only screen and (max-width: 430px) {
-  .main {
-    height: 1285px;
-  }
-}
+      }
 
-@media only screen and (max-width: 406px) {
-  .main {
-    height: 1310px;
-  }
-}
+      .viewGallery-p{
+        font-size: 15px;      }
 
-@media only screen and (max-width: 383px) {
-  .main {
-    height: 1340px;
-  }
-}
+        .services{
+          margin: 25px 5px ;
+        }
+  
+        
+        }
 
-@media only screen and (max-width: 366px) {
-  .main {
-    height: 1400px;
-  }
-  .services-h1 {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 342px) {
-  .main {
-    height: 1430px;
-  }
-}
+        @media only screen and (max-width: 383px) {
+          .main{
+           height: 1450px;
+          }
+        }
 
-@media only screen and (max-width: 319px) {
-  .main {
-    height: 1485px;
-  }
-}
+        @media only screen and (max-width: 344px) {
+          .services-aside{
+            height: 610px;
+          }
 
-
+          .main{
+            height: 1480px;
+          }
+        }
