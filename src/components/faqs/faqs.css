@@ -35,3 +35,54 @@ background-color: var(--clr3);
 }
 
 
+@media only screen and (max-width: 1000px){
+.faqs-div{
+    margin: 50px 50px 50px 50px;
+
+}  
+.faqs-p{
+    font-size: 20px;
+}  
+.faqs-a{
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width: 650px){
+    .faqs-div{
+        padding: 20px 50px 50px 50px;
+    
+    }  
+  
+    }
+
+    @media only screen and (max-width: 460px){
+        .faqs-div{
+            padding: 20px;
+        
+        }  
+      
+        }
+        @media only screen and (max-width: 405px){
+            .faqs-q{
+               font-size: 25px;
+            
+            }  
+          
+            }
+
+            @media only screen and (max-width: 364px){
+                .faqs-q{
+                   font-size: 23px;
+                
+                }  
+                .faqs-a{
+                    font-size: 15px;
+                }
+
+                .faqs-div{
+                    padding: 10px;
+                margin: 30px;
+                }  
+              
+                }

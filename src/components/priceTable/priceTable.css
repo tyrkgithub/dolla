@@ -1,10 +1,11 @@
 .container{
     background-color: var(--clr5);
-    height: 1100px;
+    height: auto;
+    
 }
 
 .price-container{
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px 50px 50px;
     margin-bottom: 50px;
 }
 
@@ -98,14 +99,6 @@
 
 
 
-
-@media only screen and (max-width: 1265px){
-    .container{
-        height: 1200px;
-    }
-}
-
-
 @media only screen and (max-width: 1050px){
     .price-row {
         display: block;   
@@ -115,10 +108,6 @@
         padding: 25px;
         margin: 0px 200px 50px;
         
-    }
-
-    .container{
-        height: 2800px;
     }
      
     }
@@ -138,93 +127,15 @@
      
     }
 
-    @media only screen and (max-width: 865px){
-        .container{
-            height: 2850px;
-        }
-         
-        }
-
-        @media only screen and (max-width: 783px){
-            .container{
-                height: 2900px;
-            }
-             
-            }
-
-            @media only screen and (max-width: 633px){
-                .container{
-                    height: 2950px;
-                }
-                 
-                }
-
-                @media only screen and (max-width: 619px){
-                    .container{
-                        height: 2975px;
-                    }
-                     
-                    }
-
-                    @media only screen and (max-width: 537px){
-                        .container{
-                            height: 3000px;
-                        }
-                         
-                        }
-
-                        @media only screen and (max-width: 534px){
-                            .container{
-                                height: 3050px;
-                            }
-                             
-                            }
-
-                            @media only screen and (max-width: 520px){
-                                .container{
-                                    height: 2675px;
-                                }
-                                 
-                                }
-                                @media only screen and (max-width: 514px){
-                                    .container{
-                                        height: 2700px;
-                                    }
-                                     
-                                    }
-                                   
-                                        @media only screen and (max-width: 425px){
-                                            .container{
-                                                height: 2750px;
-
-                                                
-                                            }
+ @media only screen and (max-width: 425px){
+                                         
                                             .priceBooking-h3{
                                                 font-size: 25px;
                                             }
                                              
                                             }
-                                            @media only screen and (max-width: 388px){
-                                                .container{
-                                                    height: 2800px;
-                                                }
-                                                 
-                                                }
-                                                @media only screen and (max-width: 365px){
-                                                    .container{
-                                                        height: 2850px;
-                                                    }
-                                                     
-                                                    }
-                                                    @media only screen and (max-width: 341px){
-                                                        .container{
-                                                            height: 2950px;
-
-                                                        }
-
-                                                       
-                                                         
-                                                        }
+                                         
+                                               
 
 
 
@@ -268,7 +179,7 @@
             }
 
             .price-container{
-                padding: 10px 20px;
+                padding: 10px 20px 50px;
                 margin-bottom: 50px;
             }
 
